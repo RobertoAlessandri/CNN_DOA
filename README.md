@@ -1,14 +1,8 @@
-# INVESTIGATING THE GENERALIZATION ABILITIES OF A DEEP LEARNING METHOD
-FOR SOUND SOURCE LOCALIZATION USING SMALL-SIZED MICROPHONE ARRAYS
+# INVESTIGATING THE GENERALIZATION ABILITIES OF A DEEP LEARNING METHOD FOR SOUND SOURCE LOCALIZATION USING SMALL-SIZED MICROPHONE ARRAYS
 
 ## Description
 
-In this work, we test the ability of a Convolutional Neural Net- 
-work (CNN) trained on a specific environmental condition to localize the Direction Of Ar- 
-rival (DOA) of a sound source in different settings from the training ones. To this end, we 
-generated 3 datasets via simulation techniques that address differ- 
-ent acoustic parameters: room volume, microphone array position 
-in the room and distance of the source. 
+In this work, we test the ability of a Convolutional Neural Network (CNN) trained on a specific environmental condition to localize the Direction Of Arrival (DOA) of a sound source in different settings from the training ones. To this end, we generated 3 datasets via simulation techniques that address different acoustic parameters: room volume, microphone array position in the room and distance of the source. 
 
 ## Prerequisities
 
@@ -63,16 +57,6 @@ The script has the following structure:
   * Source distance -> we move radially the sources starting from near positions from the microphones' center to far positions,
   
   * Room volume -> we mantain the shape of the room while increasing linearly the three dimensions.
-
-#### Functions
-
-* sourceClass(candidates, target) ->
-
-* extractAudio(fileList, randIndexes, numSelectedSentences, maxDuration, fs) ->
-
-* generateDataset(filepath, audioSamples, numSelectedSentences, DOASxSentence, targetDatasetSize, randomDOAS, res30, res10, sourceCoordinates, c, fs, r, room_dom, T60, n, mytpe, order, dim, orientation, hp_filter) ->
-
-* convAndSave(currentAudio, h, filepath, id, sampleNum, labelDOA30, labelDOA10, fs, maxSamples) ->
 
 ### Training Convolutional Neural Network
 
