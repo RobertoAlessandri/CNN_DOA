@@ -1,4 +1,5 @@
-# Robustness of Deep Learning Assisted Sound Source Localization with two First Order Differential Microphone Arrays
+# INVESTIGATING THE GENERALIZATION ABILITIES OF A DEEP LEARNING METHOD
+FOR SOUND SOURCE LOCALIZATION USING SMALL-SIZED MICROPHONE ARRAYS
 
 ## Description
 
