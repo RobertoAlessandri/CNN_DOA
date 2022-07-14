@@ -79,7 +79,7 @@ In [Various_Room_Tests.ipynb](https://github.com/RobertoAlessandri/CNN_DOA/blob/
 
 ## Report
 
-A detailed description of our work can be find here: **TODO** put hypertext to the report
+A detailed description of our work can be found [here](https://github.com/RobertoAlessandri/CNN_DOA/blob/main/L11_Report.pdf)
 
 ## Contacts
 
